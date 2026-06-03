@@ -1,3 +1,8 @@
+:root{
+    --variavel: #090909;
+    --ver: #f80000;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -70,11 +75,11 @@ section {
 }
 
 .s1 h1{
-    color: white;
+    color: var(--ver);
     font-size: 100px;
     word-break: break-all;
     text-transform: uppercase;
-    text-shadow: 0px 3px 10px black;
+    text-shadow: 0px 3px 10px var(--variavel);
     width: 100%;
     text-align: center;
     padding-top: 3vh;
